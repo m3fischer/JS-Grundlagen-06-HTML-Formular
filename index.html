@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="external/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Mein erstes Formular</title>
+</head>
+<body >
+    <div class="container-xl text-center">
+        <div><h1>Header der Website</h1></div>
+        <div class="row">
+            <div class="col"></div>
+            
+            <div class="col"></div>
+        </div>
+    </div>
+    
+    
+    <div class="container text-center">
+        <h1>Inhaltsbereich der Website</h1>
+        <div class="row">
+            <div id="linkeSeitContentArea" class="col lefside">das hier ist der Bereich auf der linken Seite</div>
+            <div class="col-6 middle ">
+
+                <form>
+                    <div class="mb-3">
+                      <label for="vorname" class="form-label">Dein Vorname</label>
+                      <input type="text" class="form-control" id="vorname" aria-describedby="vorname-info">
+                      <div id="vorname-info" class="form-text">Hier kannst Du Deinen Namen eingeben.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="nachname" class="form-label">Dein Nachnname</label>
+                      <input type="text" class="form-control" id="nachname" aria-describedby="nachname-info">
+                      <div id="nachname-info" class="form-text">Hier kannst Du Deinen Nachnamen eingeben.</div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="Email">
+                      <div id="Email" class="form-text">Hier kannst Du Deine E-Mail-Adresse eingeben.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="check">
+                      <label class="form-check-label" for="exampleCheck1">Bestätigen</label>
+                    </div>
+                    
+                    
+                    <button type="button" class="btn btn-primary" onclick="onButtonClickOK()">OK</button>
+                    
+                  </form>
+                  <div id="dankesagen"></div>
+
+            </div>
+            <div class="col rightside "></div>
+        </div>
+    </div>
+    
+    
+
+    <div class="container-xl text-center">
+      <div><h1>Footer der Website</h1></div>
+      <div class="row">
+          <div class="col"></div>
+          
+          <div class="col"></div>
+      </div>
+  </div>
+
+
+    <!--Es folgenden Scripte-->
+    <script src="my-script.js" ></script>
+    <script src="external/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>
