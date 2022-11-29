@@ -1,7 +1,4 @@
 function onButtonClickOK() {
-    
-    
-    
     //Formulardaten einlesen
     let vorname = document.getElementById("vorname").value    
     let nachname = document.getElementById("nachname").value
